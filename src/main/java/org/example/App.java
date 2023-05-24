@@ -156,5 +156,14 @@ public class App {
         totalAgeBySex.entrySet().stream().forEach(
                 e -> System.out.println(e.getKey() + " total age " + e.getValue())
         );
+
+        title("Flat map concept");
+        List<Integer> flatMappedList;
+        List<Integer> intList = Arrays.asList(new Integer[]{1,2,3});
+        List<Integer> flatMapList = intList.stream().flatMap(num -> {
+            return Arrays.asList(new Integer[]{num, num*2}).stream();
+        }).toList();
+        System.out.println("Flattened list "+flatMapList);
+
     }
 }
