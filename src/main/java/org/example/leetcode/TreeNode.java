@@ -1,4 +1,4 @@
-package org.example.leetcode.solution95;
+package org.example.leetcode;
 
 public class TreeNode {
     int val;
