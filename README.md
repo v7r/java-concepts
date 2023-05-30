@@ -24,3 +24,8 @@ Iniection/Autowiring)?
 19. Have vou worked with terraform?
 20. Any experience with container-based platforms?
 21. How to convert XML to JSON? What issues can occur while conversion? IS there anything in XML that cannot be converted to JSON?
+
+
+## TODO
+1. Learn Java concurrency classes in Java 8 https://docs.oracle.com/javase/tutorial/essential/concurrency/
+
