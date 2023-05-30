@@ -164,6 +164,5 @@ public class App {
             return Arrays.asList(new Integer[]{num, num*2}).stream();
         }).toList();
         System.out.println("Flattened list "+flatMapList);
-
     }
 }
