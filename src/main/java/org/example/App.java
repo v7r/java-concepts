@@ -1,6 +1,9 @@
 package org.example;
 
 import java.util.*;
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 import java.util.function.BiFunction;
 import java.util.function.Consumer;
 import java.util.stream.Collectors;
@@ -164,5 +167,15 @@ public class App {
             return Arrays.asList(new Integer[]{num, num*2}).stream();
         }).toList();
         System.out.println("Flattened list "+flatMapList);
+
+
+        title("Check if two arrays are identical");
+        int listA[] = {1,2,3,4,5}, listB[] = {2,3,4,5,1,1,7};
+        Set<Integer> setA = Arrays.stream(listA).boxed().collect(Collectors.toSet());
+        Set<Integer> setB = Arrays.stream(listB).boxed().collect(Collectors.toSet());
+        setA.forEach(setB::remove);
+        System.out.print("Both the lists are "+(setB.isEmpty()?"Identical":"not Identical"));
+
+        CompletableFuture<Integer> future = Executors.newFixedThreadPool(1).submit(() -> 1);
     }
 }
