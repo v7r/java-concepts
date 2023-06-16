@@ -176,6 +176,6 @@ public class App {
         setA.forEach(setB::remove);
         System.out.print("Both the lists are "+(setB.isEmpty()?"Identical":"not Identical"));
 
-        CompletableFuture<Integer> future = Executors.newFixedThreadPool(1).submit(() -> 1);
+        //CompletableFuture<Integer> future = Executors.newFixedThreadPool(1).submit(() -> 1);
     }
 }
