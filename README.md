@@ -36,18 +36,18 @@
    
    HashMap:
    
-   Uses a hash table for storing key-value pairs.
-   Keys are not ordered. They are stored based on their hash code.
-   Offers faster time complexity (O(1) on average) for adding, removing, and finding elements.
-   Well-suited for scenarios where order doesn't matter and fast retrieval is crucial.
+   1. Uses a hash table for storing key-value pairs.
+   1. Keys are not ordered. They are stored based on their hash code.
+   1. Offers faster time complexity (O(1) on average) for adding, removing, and finding elements.
+   1. Well-suited for scenarios where order doesn't matter and fast retrieval is crucial.
 
    
    TreeMap:
    
-   Uses a Red-Black tree for storing key-value pairs.
-   Keys are always sorted in ascending order by their natural ordering or a custom Comparator.
-   Offers slower time complexity (O(log n)) for adding, removing, and finding elements compared to HashMap.
-   Useful when you need elements in a specific order or want to take advantage of methods like finding the first or last key.
+   1. Uses a Red-Black tree for storing key-value pairs.
+   1. Keys are always sorted in ascending order by their natural ordering or a custom Comparator.
+   1. Offers slower time complexity (O(log n)) for adding, removing, and finding elements compared to HashMap.
+   1. Useful when you need elements in a specific order or want to take advantage of methods like finding the first or last key.
 
    
 10. Do you know algorithm complexity (Big-0) in retrieving elements from HashMap and TreeMap?
