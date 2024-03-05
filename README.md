@@ -57,13 +57,13 @@
       
    If you are working with lists, another technique consists in using a ListIterator which has support for removal and addition of items during the iteration itself.
       
-      >      ListIterator<Book> iter = books.listIterator();
-      >      while(iter.hasNext()){
-      >          if(iter.next().getIsbn().equals(isbn)){
-      >              iter.remove();
-      >          }
-      >      }
-      > 
+            ListIterator<Book> iter = books.listIterator();
+            while(iter.hasNext()){
+                if(iter.next().getIsbn().equals(isbn)){
+                    iter.remove();
+                }
+            }
+       
 
 
    Again, I used the "remove" method in the example above which is what your question seemed to imply, but you may also use its add method to add new elements during iteration.
@@ -76,8 +76,8 @@
    
    You could use the new removeIf method in the Collection base class:
    
-      >      ISBN other = new ISBN("0-201-63361-2");
-      >      books.removeIf(b -> b.getIsbn().equals(other));
+            ISBN other = new ISBN("0-201-63361-2");
+            books.removeIf(b -> b.getIsbn().equals(other));
 
 
 [Refer Stackoverflow](https://stackoverflow.com/questions/10431981/remove-elements-from-collection-while-iterating)
