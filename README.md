@@ -6,8 +6,11 @@
 2. What are the data structures in java (list/map/set collections)
 
    Collection -> List and Set
+
    List -> ArrayList, LinkedList, Vector, Stack
+
    Set -> HashSet, LinkedHashSet, TreeSet, EnumSet
+
    Map -> HashMap, TreeMap, ConcurrentMap, Hashtable, LinkedHashMap, Properties, WeakHashMap, Attributes
    
 4. What is the difference between stack and queue?
