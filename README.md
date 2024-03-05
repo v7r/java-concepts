@@ -53,29 +53,31 @@
 10. Do you know algorithm complexity (Big-0) in retrieving elements from HashMap and TreeMap?
 11. How to iterate and at the same time remove an item from the List without ConcurrentModificationException ?
 
-      **Using ListIterator**
+   **Using ListIterator**
       
-      If you are working with lists, another technique consists in using a ListIterator which has support for removal and addition of items during the iteration itself.
+   If you are working with lists, another technique consists in using a ListIterator which has support for removal and addition of items during the iteration itself.
       
->      ListIterator<Book> iter = books.listIterator();
->      while(iter.hasNext()){
->          if(iter.next().getIsbn().equals(isbn)){
->              iter.remove();
->          }
->      }
+      >      ListIterator<Book> iter = books.listIterator();
+      >      while(iter.hasNext()){
+      >          if(iter.next().getIsbn().equals(isbn)){
+      >              iter.remove();
+      >          }
+      >      }
+      > 
 
-      Again, I used the "remove" method in the example above which is what your question seemed to imply, but you may also use its add method to add new elements during iteration.
+
+   Again, I used the "remove" method in the example above which is what your question seemed to imply, but you may also use its add method to add new elements during iteration.
 
 
       
-      **Using JDK >= 8**
+  **Using JDK >= 8**
       
-      For those working with Java 8 or superior versions, there are a couple of other techniques you could use to take advantage of it.
-      
-      You could use the new removeIf method in the Collection base class:
-      
->      ISBN other = new ISBN("0-201-63361-2");
->      books.removeIf(b -> b.getIsbn().equals(other));
+   For those working with Java 8 or superior versions, there are a couple of other techniques you could use to take advantage of it.
+   
+   You could use the new removeIf method in the Collection base class:
+   
+      >      ISBN other = new ISBN("0-201-63361-2");
+      >      books.removeIf(b -> b.getIsbn().equals(other));
 
 
 [Refer Stackoverflow](https://stackoverflow.com/questions/10431981/remove-elements-from-collection-while-iterating)
