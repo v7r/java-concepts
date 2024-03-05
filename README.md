@@ -51,21 +51,50 @@
 
    
 10. Do you know algorithm complexity (Big-0) in retrieving elements from HashMap and TreeMap?
-11. What happens when springboot is starting up and encounters annotations (Dependency
+11. How to iterate and at the same time remove an item from the List without ConcurrentModificationException ?
+
+      **Using ListIterator**
+      
+      If you are working with lists, another technique consists in using a ListIterator which has support for removal and addition of items during the iteration itself.
+      
+>      ListIterator<Book> iter = books.listIterator();
+>      while(iter.hasNext()){
+>          if(iter.next().getIsbn().equals(isbn)){
+>              iter.remove();
+>          }
+>      }
+
+      Again, I used the "remove" method in the example above which is what your question seemed to imply, but you may also use its add method to add new elements during iteration.
+
+
+      
+      **Using JDK >= 8**
+      
+      For those working with Java 8 or superior versions, there are a couple of other techniques you could use to take advantage of it.
+      
+      You could use the new removeIf method in the Collection base class:
+      
+>      ISBN other = new ISBN("0-201-63361-2");
+>      books.removeIf(b -> b.getIsbn().equals(other));
+
+
+[Refer Stackoverflow](https://stackoverflow.com/questions/10431981/remove-elements-from-collection-while-iterating)
+     
+13. What happens when springboot is starting up and encounters annotations (Dependency
 Iniection/Autowiring)?
-12. What is there is same class and bean name used for auto-wire in two different services? (Use @Qualifier, @Primary)
-13. What CICD tool have you used? Have you used Concourse or anything other than Jenkins? What were the exact tasks performed in the CICD tool that you have used?
-14. Debug performance issues in application. What kind of tools are used to identify the cause of slowdown?
-15. Can you explain the difference between service and component?
-16. Have you worked with Integration Flows (Kafka)?
-17. Have you worked on API documentation? (Swagger)
-18. What version of Java have you used?
-19. Any other language used in previous projects?
-20. What kind of databases have you worked with. Any experience with Cassandra/bigdata/NoSql?
-21. Any experience with AWS? Anything specific to lambda, SQS, Kinesis?
-22. Have vou worked with terraform?
-23. Any experience with container-based platforms?
-24. How to convert XML to JSON? What issues can occur while conversion? IS there anything in XML that cannot be converted to JSON?
+14. What is there is same class and bean name used for auto-wire in two different services? (Use @Qualifier, @Primary)
+15. What CICD tool have you used? Have you used Concourse or anything other than Jenkins? What were the exact tasks performed in the CICD tool that you have used?
+16. Debug performance issues in application. What kind of tools are used to identify the cause of slowdown?
+17. Can you explain the difference between service and component?
+18. Have you worked with Integration Flows (Kafka)?
+19. Have you worked on API documentation? (Swagger)
+20. What version of Java have you used?
+21. Any other language used in previous projects?
+22. What kind of databases have you worked with. Any experience with Cassandra/bigdata/NoSql?
+23. Any experience with AWS? Anything specific to lambda, SQS, Kinesis?
+24. Have vou worked with terraform?
+25. Any experience with container-based platforms?
+26. How to convert XML to JSON? What issues can occur while conversion? IS there anything in XML that cannot be converted to JSON?
 
 
 ## TODO
