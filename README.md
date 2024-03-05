@@ -16,6 +16,17 @@
 4. What is the difference between stack and queue?
 5. What are different types of Map data structure?
 6. Do we still use HashTables in Java? If so, why?
+
+   There are several differences between HashMap and Hashtable in Java:
+
+   Hashtable is synchronized, whereas HashMap is not. This makes HashMap better for non-threaded applications, as unsynchronized Objects typically perform better       than synchronized ones.
+
+   Hashtable does not allow null keys or values. HashMap allows one null key and any number of null values.
+
+   One of HashMap's subclasses is LinkedHashMap, so in the event that you'd want predictable iteration order (which is insertion order by default), you could easily swap out the HashMap for a LinkedHashMap. This wouldn't be as easy if you were using Hashtable.
+
+   Since synchronization is not an issue for you, I'd recommend HashMap. If synchronization becomes an issue, you may also look at ConcurrentHashMap.
+
 7. Do you know about TreeMap? What is the difference between HashMap and TreeMap? If I want to get an element in TreeMap, will I be comparing with each key in the map?
 8. Do you know algorithm complexity (Big-0) in retrieving elements from HashMap and TreeMap?
 9. What happens when springboot is starting up and encounters annotations (Dependency
