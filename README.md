@@ -4,6 +4,7 @@
 ### Java Interview Questions
 1. What are different types of exceptions? Give examples. Name some catchable exceptions.
 2. What are the data structures in java (list/map/set collections)
+
    Collection -> List and Set
    List -> ArrayList, LinkedList, Vector, Stack
    Set -> HashSet, LinkedHashSet, TreeSet, EnumSet
