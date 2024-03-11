@@ -80,7 +80,7 @@
             books.removeIf(b -> b.getIsbn().equals(other));
 
 
-[Refer Stackoverflow](https://stackoverflow.com/questions/10431981/remove-elements-from-collection-while-iterating)
+   [Refer Stackoverflow](https://stackoverflow.com/questions/10431981/remove-elements-from-collection-while-iterating)
      
 13. What happens when springboot is starting up and encounters annotations (Dependency
 Iniection/Autowiring)?
@@ -97,6 +97,9 @@ Iniection/Autowiring)?
 24. Have vou worked with terraform?
 25. Any experience with container-based platforms?
 26. How to convert XML to JSON? What issues can occur while conversion? IS there anything in XML that cannot be converted to JSON?
+27. What is Java Platform Module System introduced in Java 9 ?
+    
+    [Refer A Guide to Java 9 Modularity](src/main/resources/AGuideToJava9Modularity-Baeldung.pdf)
 
 
 ## TODO
