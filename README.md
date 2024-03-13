@@ -2,6 +2,8 @@
 ### Some good interview questions reference sites
 #### 1. https://www.toptal.com/java/interview-questions
 #### 2. [Java 8 Streaming interview questions](https://medium.com/javarevisited/must-know-java-8-stream-interview-questions-for-java-developers-series-16-9d0579623a70)
+#### 3. [Java concurrency interview questions (both old and new methods)](https://www.digitalocean.com/community/tutorials/java-multithreading-concurrency-interview-questions-answers)
+#### 4. [Java concurrency interview questions beldung](https://www.baeldung.com/java-concurrency-interview-questions)
 
 ### Java Interview Questions
 1. What are different types of exceptions? Give examples. Name some catchable exceptions.
