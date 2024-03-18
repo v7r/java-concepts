@@ -105,6 +105,8 @@ Iniection/Autowiring)?
     [Refer A Guide to Java 9 Modularity](src/main/resources/AGuideToJava9Modularity-Baeldung.pdf)
 
     [Java 9 command line reference](https://docs.oracle.com/javase/9/tools/java.htm#JSWOR624)
+28. Explain about AOP concept ?
+    [Spring AOP](https://docs.spring.io/spring-framework/reference/core/aop/introduction-defn.html)
 
 ## TODO
 1. Learn Java concurrency classes in Java 8 https://docs.oracle.com/javase/tutorial/essential/concurrency/
