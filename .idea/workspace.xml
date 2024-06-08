@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da33880e-47a8-4479-9294-1a9e4132d430" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/media/Java_collections_cheat_sheet.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DiscussionTopic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ctci/AreAllUniqueCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ctci/CheckPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ctci/FinallPermutationsOfShorterString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ctci/FindPairsWithSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ctci/ListCommonArrayElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ctci/NthFibonacciNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ctci/PermutationOfAPalendrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ctci/PrintPowersOf2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ctci/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ctci/ReturnKthToTheLast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ctci/StringPermutations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +37,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="minikube" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -36,36 +54,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/worspace/sources/pg/java-concepts/src/main/resources&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/vamsi/work/incubator/java/brushup/java-concepts/media",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/media" />
       <recent name="D:\worspace\sources\pg\java-concepts\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AsynchrousConcepts">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.App" />
+  <component name="RunManager" selected="Application.ReturnKthToTheLast">
+    <configuration name="FindPairsWithSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ctci.FindPairsWithSum" />
       <module name="java-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.ctci.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AsynchrousConcepts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.concurrency.AsynchrousConcepts" />
+    <configuration name="NthFibonacciNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ctci.NthFibonacciNumber" />
       <module name="java-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.concurrency.*" />
+          <option name="PATTERN" value="org.example.ctci.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryTreeToList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.keeponcoding.BinaryTreeToList" />
+    <configuration name="PrintPowersOf2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ctci.PrintPowersOf2" />
       <module name="java-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.keeponcoding.*" />
+          <option name="PATTERN" value="org.example.ctci.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InputParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.assorted.InputParser" />
+    <configuration name="ReturnKthToTheLast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ctci.ReturnKthToTheLast" />
       <module name="java-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.assorted.*" />
+          <option name="PATTERN" value="org.example.ctci.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListToMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.assorted.ListToMap" />
+    <configuration name="StringPermutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ctci.StringPermutations" />
       <module name="java-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.assorted.*" />
+          <option name="PATTERN" value="org.example.ctci.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AsynchrousConcepts" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="Application.InputParser" />
-        <item itemvalue="Application.ListToMap" />
-        <item itemvalue="Application.BinaryTreeToList" />
+        <item itemvalue="Application.ReturnKthToTheLast" />
+        <item itemvalue="Application.FindPairsWithSum" />
+        <item itemvalue="Application.PrintPowersOf2" />
+        <item itemvalue="Application.NthFibonacciNumber" />
+        <item itemvalue="Application.StringPermutations" />
       </list>
     </recent_temporary>
   </component>
@@ -152,6 +171,7 @@
       <workItem from="1685326093024" duration="18404000" />
       <workItem from="1685573558786" duration="6101000" />
       <workItem from="1686841268293" duration="8829000" />
+      <workItem from="1715971783016" duration="33121000" />
     </task>
     <servers />
   </component>
@@ -196,6 +216,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/leetcode/TreeNode.java</url>
           <line>124</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ctci/StringPermutations.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ctci/FindPairsWithSum.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ctci/FindPairsWithSum.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

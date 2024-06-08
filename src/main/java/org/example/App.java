@@ -177,5 +177,17 @@ public class App {
         System.out.print("Both the lists are "+(setB.isEmpty()?"Identical":"not Identical"));
 
         //CompletableFuture<Integer> future = Executors.newFixedThreadPool(1).submit(() -> 1);
+
+        title("Sort people by name and age");
+        List<Person> sortedPeople = people.stream()
+                .sorted(Comparator.comparing(Person::getName).thenComparing(Person::getAge))
+                .collect(Collectors.toList());
+        System.out.println("Sorted people by name and age "+sortedPeople);
+
+        title("Youngest person");
+        Optional<Person> youngest = people.stream().min(Comparator.comparing(Person::getAge));
+        System.out.println("Youngest person is "+youngest.get());
+
+
     }
 }
