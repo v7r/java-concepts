@@ -2,6 +2,8 @@
 ### Some good interview questions reference sites
 #### 1. https://www.toptal.com/java/interview-questions
 #### 2. [Java 8 Streaming interview questions](https://medium.com/javarevisited/must-know-java-8-stream-interview-questions-for-java-developers-series-16-9d0579623a70)
+#### 3. [Java concurrency interview questions (both old and new methods)](https://www.digitalocean.com/community/tutorials/java-multithreading-concurrency-interview-questions-answers)
+#### 4. [Java concurrency interview questions beldung](https://www.baeldung.com/java-concurrency-interview-questions)
 
 ### Java Interview Questions
 1. What are different types of exceptions? Give examples. Name some catchable exceptions.
@@ -14,7 +16,7 @@
    Set -> HashSet, LinkedHashSet, TreeSet, EnumSet
 
    Map -> HashMap, TreeMap, ConcurrentMap, Hashtable, LinkedHashMap, Properties, WeakHashMap, Attributes
-   
+
 4. What is the difference between stack and queue?
 5. What are different types of Map data structure?
 6. Do we still use HashTables in Java? If so, why?
@@ -34,55 +36,55 @@
 8. Do you know about TreeMap? What is the difference between HashMap and TreeMap? If I want to get an element in TreeMap, will I be comparing with each key in the map?
 
    They differ in their underlying data structure and functionalities:
-   
+
    HashMap:
-   
+
    1. Uses a hash table for storing key-value pairs.
    1. Keys are not ordered. They are stored based on their hash code.
    1. Offers faster time complexity (O(1) on average) for adding, removing, and finding elements.
    1. Well-suited for scenarios where order doesn't matter and fast retrieval is crucial.
 
-   
+
    TreeMap:
-   
+
    1. Uses a Red-Black tree for storing key-value pairs.
    1. Keys are always sorted in ascending order by their natural ordering or a custom Comparator.
    1. Offers slower time complexity (O(log n)) for adding, removing, and finding elements compared to HashMap.
    1. Useful when you need elements in a specific order or want to take advantage of methods like finding the first or last key.
 
-   
+
 10. Do you know algorithm complexity (Big-0) in retrieving elements from HashMap and TreeMap?
 11. How to iterate and at the same time remove an item from the List without ConcurrentModificationException ?
 
    **Using ListIterator**
-      
+
    If you are working with lists, another technique consists in using a ListIterator which has support for removal and addition of items during the iteration itself.
-      
+
             ListIterator<Book> iter = books.listIterator();
             while(iter.hasNext()){
                 if(iter.next().getIsbn().equals(isbn)){
                     iter.remove();
                 }
             }
-       
+
 
 
    Again, I used the "remove" method in the example above which is what your question seemed to imply, but you may also use its add method to add new elements during iteration.
 
 
-      
+
   **Using JDK >= 8**
-      
+
    For those working with Java 8 or superior versions, there are a couple of other techniques you could use to take advantage of it.
-   
+
    You could use the new removeIf method in the Collection base class:
-   
+
             ISBN other = new ISBN("0-201-63361-2");
             books.removeIf(b -> b.getIsbn().equals(other));
 
 
    [Refer Stackoverflow](https://stackoverflow.com/questions/10431981/remove-elements-from-collection-while-iterating)
-     
+
 13. What happens when springboot is starting up and encounters annotations (Dependency
 Iniection/Autowiring)?
 14. What is there is same class and bean name used for auto-wire in two different services? (Use @Qualifier, @Primary)
@@ -99,14 +101,17 @@ Iniection/Autowiring)?
 25. Any experience with container-based platforms?
 26. How to convert XML to JSON? What issues can occur while conversion? IS there anything in XML that cannot be converted to JSON?
 27. What is Java Platform Module System introduced in Java 9 ?
-    
+
     [Refer A Guide to Java 9 Modularity](src/main/resources/AGuideToJava9Modularity-Baeldung.pdf)
 
     [Java 9 command line reference](https://docs.oracle.com/javase/9/tools/java.htm#JSWOR624)
-28. Java Collections Cheat Sheet
+
+28. Explain about AOP concept ?
+    [Spring AOP](https://docs.spring.io/spring-framework/reference/core/aop/introduction-defn.html)
+
+29. Java Collections Cheat Sheet
 
     ![Java Collections Cheat Sheet](media/Java_collections_cheat_sheet.jpeg)
 
 ## TODO
 1. Learn Java concurrency classes in Java 8 https://docs.oracle.com/javase/tutorial/essential/concurrency/
-
