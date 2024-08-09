@@ -5,22 +5,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da33880e-47a8-4479-9294-1a9e4132d430" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/media/Java_collections_cheat_sheet.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DiscussionTopic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ctci/AreAllUniqueCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ctci/CheckPermutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ctci/FinallPermutationsOfShorterString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ctci/FindPairsWithSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ctci/ListCommonArrayElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ctci/NthFibonacciNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ctci/PermutationOfAPalendrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ctci/PrintPowersOf2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ctci/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ctci/ReturnKthToTheLast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ctci/StringPermutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/resourceBundles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labels.properties_en_US" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/in.text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/Order-of-Operator-precedence.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BinarySearchTrickQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FlowScopingTrickQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TrickySwitchCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/classesinterfaces/Chimpanzee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/classesinterfaces/ClassImplementsInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/classesinterfaces/MethodOverload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/classesinterfaces/MethodOverloadWithNatives.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/classesinterfaces/MethodOverloadingNativeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/classesinterfaces/ScopeAndPassByValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/classesinterfaces/StaticOverload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/concurrency/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ctci/PalindrameList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ctci/SumLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/enumsandswitch/Desig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/enumsandswitch/Forecast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/enumsandswitch/SwtichCaseEg1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exceptions/ExceptionHierarchy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hackerrank/HourGlassSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hackerrank/MaxOfArrayOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/io/ObjectSerializationEg1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/io/ObjectSerializationEg2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/io/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/io/ReadWriteFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/io/StreamLines.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/javaconcepts/OuterClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/javaconcepts/OuterClassClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/locales/LocalQuiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/modules/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/modules/ModuleQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/modules/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/modules/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/modules/one/Doc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/modules/one/WordDoc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/modules/one/WordDoc2024.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/modules/three/Act.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/modules/three/Art.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/modules/three/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/modules/three/SInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/modules/three/Story.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/modules/two/WordDoc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/record/RecordMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/record/RecordQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/DoubleSummaryStat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/DropWhileStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/GroupingQuiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/ReduceQuiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/SortAList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/StreamConcat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/varkey/VarList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Labels.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Labels_US.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Labels_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Labels_en_US.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ctci/FinallPermutationsOfShorterString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ctci/FinallPermutationsOfShorterString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +78,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -54,37 +103,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/vamsi/work/incubator/java/brushup/java-concepts/media",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/vamsi/work/incubator/java/brushup/java-concepts/media&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.modules.one" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/media" />
       <recent name="D:\worspace\sources\pg\java-concepts\src\main\resources" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/modules/three" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ReturnKthToTheLast">
-    <configuration name="FindPairsWithSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ctci.FindPairsWithSum" />
+  <component name="RunManager" selected="Application.DoubleSummaryStat">
+    <configuration name="BinarySearchTrickQuestion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.BinarySearchTrickQuestion" />
       <module name="java-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ctci.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NthFibonacciNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ctci.NthFibonacciNumber" />
+    <configuration name="DoubleSummaryStat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.streams.DoubleSummaryStat" />
       <module name="java-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ctci.*" />
+          <option name="PATTERN" value="org.example.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintPowersOf2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ctci.PrintPowersOf2" />
+    <configuration name="ExceptionHierarchy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.exceptions.ExceptionHierarchy" />
       <module name="java-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ctci.*" />
+          <option name="PATTERN" value="org.example.exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +175,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReturnKthToTheLast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ctci.ReturnKthToTheLast" />
+    <configuration name="LocalQuiz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.locales.LocalQuiz" />
       <module name="java-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ctci.*" />
+          <option name="PATTERN" value="org.example.locales.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +188,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringPermutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ctci.StringPermutations" />
+    <configuration name="VarList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.varkey.VarList" />
       <module name="java-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ctci.*" />
+          <option name="PATTERN" value="org.example.varkey.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,13 +201,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.BinarySearchTrickQuestion" />
+      <item itemvalue="Application.DoubleSummaryStat" />
+      <item itemvalue="Application.ExceptionHierarchy" />
+      <item itemvalue="Application.LocalQuiz" />
+      <item itemvalue="Application.VarList" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReturnKthToTheLast" />
-        <item itemvalue="Application.FindPairsWithSum" />
-        <item itemvalue="Application.PrintPowersOf2" />
-        <item itemvalue="Application.NthFibonacciNumber" />
-        <item itemvalue="Application.StringPermutations" />
+        <item itemvalue="Application.DoubleSummaryStat" />
+        <item itemvalue="Application.BinarySearchTrickQuestion" />
+        <item itemvalue="Application.ExceptionHierarchy" />
+        <item itemvalue="Application.LocalQuiz" />
+        <item itemvalue="Application.VarList" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +235,9 @@
       <workItem from="1685326093024" duration="18404000" />
       <workItem from="1685573558786" duration="6101000" />
       <workItem from="1686841268293" duration="8829000" />
-      <workItem from="1715971783016" duration="33121000" />
+      <workItem from="1715971783016" duration="47068000" />
+      <workItem from="1717958833877" duration="72367000" />
+      <workItem from="1721826646573" duration="1800000" />
     </task>
     <servers />
   </component>
@@ -231,6 +297,46 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ctci/FindPairsWithSum.java</url>
           <line>46</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ctci/SumLists.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ctci/PalindrameList.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ctci/PalindrameList.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/hackerrank/MaxOfArrayOperations.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/hackerrank/MaxOfArrayOperations.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/io/Product.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/io/Product.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/io/StreamLines.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

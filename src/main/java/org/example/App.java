@@ -1,5 +1,10 @@
 package org.example;
 
+import java.time.Duration;
+import java.time.LocalDate;
+import java.time.Period;
+import java.time.temporal.ChronoUnit;
+import java.time.temporal.UnsupportedTemporalTypeException;
 import java.util.*;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutorService;
@@ -189,5 +194,122 @@ public class App {
         System.out.println("Youngest person is "+youngest.get());
 
 
+        PriorityQueue<Integer> pq = new PriorityQueue<Integer>(16, Comparator.reverseOrder());
+        pq.add(11);
+        pq.add(5);
+        pq.add(55);
+        pq.add(10);
+        System.out.println("Maximum Number: "+pq.remove());
+
+        int xd = 0;
+        // this demonstrates the do while with single statement with no braces.
+        do
+            System.out.println( ++xd + " << do-while with no braces");
+            while(xd < 5);
+
+        double d = 14.2;
+        float f1 = 13.2f; // compilation error if no 'f' because the literal with decimal places are double type by default.
+
+        boolean b1 = 5 <= 6 == 7 <= 10; // true
+        boolean b2 = true == false;
+
+        int l1 = 123___4____34__________123; // strage !! but no copilation error :)
+        String s1 = """
+                First line
+                Another Line
+                """;
+        System.out.println("Multiline string: "+s1);
+
+        // demonstrates all valid declarations
+        int inta[], anotherInteger; // inta is an int array type whereas anotherInteger is int type.
+        int[] inta1 = new int[10];
+        int[] inta2 = new int[] {1,2,3,4,5}; // you should not specify the size of the array in the angular brackets instead the size is the number of elements initialized.
+        int[] inta3 = {1,2,3,4,5}; // Another way to create and initialize array.
+
+        String bugs[] = new String[]{"ant","wasp","bee"};
+        String bugs1[] = {"ant","wasp","bee"};
+        System.out.println("Array.equal() ?"+ bugs.equals(bugs1)); // false. by default Array.equals() compares object reference with == operator
+        System.out.println("Arrays.equals() ?"+ Arrays.equals(bugs, bugs1)); // true ?
+
+        var localDate = LocalDate.of(2024,05,13);
+        ChronoUnit.DAYS.between(localDate, localDate); // returns zero
+
+        LocalDate aDate = LocalDate.of(2024, 6, 13);
+        Duration oneDayDuration = Duration.ofHours(24);
+        Period oneDayPeriod = Period.ofDays(1);
+
+        aDate.plus(oneDayPeriod); // adds one day to date.
+        try {
+            // throws java.time.temporal.UnsupportedTemporalTypeException: Unsupported unit: Hours
+            // since aDate has no time component to add oneDayDuration.
+            aDate.plus(oneDayDuration);
+        } catch (UnsupportedTemporalTypeException te) {
+            //te.printStackTrace();
+        }
+        String a = "";
+        a += 'c'; // yieks !! it's valid
+        System.out.println("String a is %s".formatted(a));
+
+        // Question 5
+        String s2 = "Hello! Java";
+        System.out.print(s2.indexOf("Java"));
+        s2.replace("Hello!", "Welcome!");
+        System.out.print(s2.indexOf("Java"));
+        StringBuilder sb1 = new StringBuilder(s2);
+        System.out.print(sb1.indexOf("Java"));
+
+        System.out.println("");
+
+        String myStr = "Hello Java 17";
+        String myTextB1k1 = """
+                Hello Java 17""";
+        String myTextB1k2 = """
+                Hello Java 17
+                """;
+        System.out.print(myStr.equals(myTextB1k1)+":");                 // true
+        System.out.print(myStr.equals(myTextB1k2)+":");                 // false
+        System.out.print(myTextB1k1.equals(myTextB1k2)+":");            // false
+        System.out.println(myTextB1k1.intern() == myTextB1k2.intern()); // false
+
+        // #6
+        String ns = "1_0";
+        Integer anInt = 1_0;
+        Integer sum;
+        try {
+            sum = 100 + Integer.parseInt(ns); // throws number format exception;
+            System.out.println("1. Sum is %d".formatted(sum));
+        } catch (NumberFormatException nfe) {}
+
+        try {
+            sum = 100 + new Integer(ns);
+            System.out.println("2. Sum is %d".formatted(sum)); // throws nfe
+        } catch (NumberFormatException nfe) {}
+
+        try {
+            sum = 100 + anInt;
+            System.out.println("3. Sum is %d".formatted(sum)); // prints the sum
+        } catch (NumberFormatException nfe) {}
+
+        try {
+            sum = 250;
+            sum += anInt;
+            System.out.println("4. Sum is %d".formatted(sum)); // prints the sum
+        } catch (NumberFormatException nfe) {}
+
+        // #7
+        int i1 = 5;
+        int i2 = ~i1;
+        int i3 = i1 ^ i2;
+        boolean bool1 = i1 < i2 & i1 > i3++;
+        System.out.println(bool1 + " " + i3);
+        boolean bool2 = i1 > i2 && i1 > i3++;
+        System.out.println(bool2 + " " + i3);
+
+        // question 10
+        List<String> holidays = List.of("NewYear", "Valentines", "Junteenth", "Thanksgiving");
+        System.out.print(holidays.stream().allMatch(h -> h.equals("Thanksgiving")));
+        System.out.print(" " + holidays.stream().anyMatch(h -> h.equals("Thanksgiving")));
+        System.out.print(" " + holidays.stream().noneMatch(h -> h.equals("Birthday")));
+        System.out.println(" " + holidays.stream().findFirst());
     }
 }

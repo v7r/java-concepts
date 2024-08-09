@@ -106,12 +106,25 @@ Iniection/Autowiring)?
 
     [Java 9 command line reference](https://docs.oracle.com/javase/9/tools/java.htm#JSWOR624)
 
-28. Explain about AOP concept ?
+    [Java 17 sealed classes](https://docs.oracle.com/en/java/javase/17/language/sealed-classes-and-interfaces.html)
+28. Record class Java 17 Updates
+
+    [Record class Java 17 Updates](https://docs.oracle.com/en/java/javase/17/language/records.html#GUID-6699E26F-4A9B-4393-A08B-1E47D4B2D263)
+
+30. Explain about AOP concept ?
     [Spring AOP](https://docs.spring.io/spring-framework/reference/core/aop/introduction-defn.html)
 
-29. Java Collections Cheat Sheet
+31. Java Collections Cheat Sheet
 
     ![Java Collections Cheat Sheet](media/Java_collections_cheat_sheet.jpeg)
+
+32. Order of Operator of precedence
+
+    ![Order of operator precedence](media/Order-of-Operator-precedence.jpg)
+
+
+![img.png](img.png)
+
 
 ## TODO
 1. Learn Java concurrency classes in Java 8 https://docs.oracle.com/javase/tutorial/essential/concurrency/
