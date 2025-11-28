@@ -145,6 +145,7 @@ public class App {
                                 )
                         )
                 );
+
         namesBySex.entrySet().stream().forEach(e -> {
             //System.out.println(e.getKey()+ " are "+Arrays.toString(e.getValue().toArray()));
             System.out.println(e.getKey() + " are " + e.getValue());
