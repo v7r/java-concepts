@@ -30,7 +30,7 @@ import java.util.List;
  *
  *
  */
-public class BinarySearchTemplate {
+public class Template {
     public static int binarySearch(List<Integer> arr, int target) {
         int left = 0;
         int right = arr.size() - 1;
