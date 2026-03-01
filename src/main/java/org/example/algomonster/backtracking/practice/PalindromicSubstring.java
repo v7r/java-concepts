@@ -47,7 +47,6 @@ public class PalindromicSubstring {
         if (idx == s.length()) {
             return;
         }
-
         if (visitedNode.get(idx) != null && visitedNode.get(idx)) {
             return;
         }

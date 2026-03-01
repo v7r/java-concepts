@@ -214,7 +214,7 @@ public class App {
         boolean b1 = 5 <= 6 == 7 <= 10; // true
         boolean b2 = true == false;
 
-        int l1 = 123___4____34__________123; // strage !! but no copilation error :)
+        int l1 = 123___4____34__________123; // storage !! but no compilation error :)
         String s1 = """
                 First line
                 Another Line

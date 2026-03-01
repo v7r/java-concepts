@@ -44,6 +44,6 @@ Depending on what the problem asks for, the initial_value and aggregate function
 |----------------------------------|---------------|--------------|
 | If it's possible? does it exist? | boolean value | logical OR   |
 | Number of ways                   | 0             | addition (+) |
-| Maximum/minimum ways/value to...                 | 0, if         | max/min      |
+| Maximum/minimum ways/value to...                 | 0, inf        | max/min      |
 
-We will go through a couple of concrete problems in the following articles. Before that, let's introduce one more useful technique that is often used in backtracking aggregation problems.
+We will go through a couple of concrete problems in the following articles. Before that, let's introduce one more useful technique that is often used in backtracking aggregation problems called [Memoization](Memoization.md)
