@@ -14,6 +14,7 @@
   - [Most Common Confusion Pairs](#confusion-pairs)
   - [Interview Trick Awareness](#interview-trick)
   - [Stress Test Your Understanding](#graph-stress-test-your-understanding)
+  - [Graph Interview Cheat Sheet](#graph-interview-cheat-sheet)
 
 ---
 
@@ -187,64 +188,6 @@ Memorize this:
   - Counting → DFS
   - Minimum distance → BFS
 
-<a id="graph-stress-test-your-understanding"></a>
-## Stress Test Your Understanding
-#### 1. ✅ Network delay time.
-Dijkstra's algorithm. Shortest path in a weighted graph.
-
-Because:
-* Weighted directed graph
-* Need shortest path from one source
-* Final answer = max distance among reachable nodes
-
-#### ✅ Redundant connection
-You said: DSU
-
-✔ Correct.
-
-We detect cycle while adding edges dynamically.
-#### ✅ Minimum cost to connect points in plane
-You said: MST (Kruskal + DSU)
-✔ Correct.
-
-This is classic MST.
-
-Greedy rule:
-
-Pick smallest edge that does not form a cycle
-
-#### ✅ Word ladder
-You said: BFS
-
-✔ Correct.
-
-Why?
-
-Signal words:
-
-    Minimum transformations 
-    Fewest steps
-    Unweighted transitions
-    Each word transformation = cost 1.
-
-Level expansion property:
-
-    𝑑𝑖𝑠𝑡[𝑣]= 𝑑𝑖𝑠𝑡[𝑢] + 1
-
-#### ✅ Alien dictionary
-You said: Topo
-
-✔ Correct.
-
-Dependency ordering of characters → Directed acyclic graph → Topo.
-#### ✅ Evaluate division equations
-DFS + Backtracking
-
-#### ✅ Number of islands
-DFS
-
----
-
 <a id="confusion-pairs"></a>
 ## 🔥 Most Common Confusion Pairs
 **BFS vs DFS**
@@ -262,6 +205,217 @@ DFS
 Different goals.
 
 ---
+<a id="graph-interview-cheat-sheet"></a>
+## 🧠 GRAPH INTERVIEW CHEAT SHEET
+
+(Signal → Algorithm → Why)
+
+### 1️⃣ Connectivity Problems
+🔎 Signal Words
+
+    “Number of groups” 
+    “Provinces”
+    “Connected components”
+    “Are they connected?”
+    “Merge accounts”
+
+✅ Use
+
+DFS / BFS (static graph)
+
+DSU (dynamic unions / repeated connectivity checks)
+
+🧠 Why
+
+We just need to group nodes into components.
+
+⚠️ Pitfall
+
+If edges are added incrementally → prefer DSU.
+
+### 2️⃣ Shortest Path (Unweighted)
+🔎 Signal Words
+
+    “Minimum moves”
+    “Fewest steps”
+    “Shortest path”
+    “Minimum buses”
+    “Word ladder”
+
+✅ Use
+
+BFS
+
+🧠 Why
+
+Level-order expansion guarantees shortest path when all edges cost 1.
+
+Core property:
+
+⚠️ Pitfall
+
+Do NOT use DFS for shortest path.
+
+### 3️⃣ Shortest Path (Weighted, Positive)
+🔎 Signal Words
+    
+    “Minimum cost”
+    “Cheapest route”
+    “Minimum time”
+    “Weighted graph”
+
+✅ Use
+
+Dijkstra
+
+🧠 Why
+
+Greedy relaxation from smallest known distance.
+
+Core principle:
+
+⚠️ Pitfall
+
+Dijkstra solves from one source — not global network connection.
+
+### 4️⃣ Minimum Spanning Tree (MST)
+🔎 Signal Words
+
+    “Connect all cities”
+    “Minimum total cost to connect”
+    “Network wiring”
+    “Spanning”
+
+✅ Use
+
+Kruskal (DSU)
+
+OR Prim
+
+🧠 Why
+
+We want to minimize total edge cost globally.
+
+Greedy rule:
+
+⚠️ Pitfall
+
+MST ≠ Shortest path from source.
+
+### 5️⃣ Directed Graph – Ordering / Dependencies
+🔎 Signal Words 
+
+    “Course schedule”
+    “Build order”
+    “Task dependencies”
+    “Alien dictionary”
+
+✅ Use
+
+Topological Sort (Kahn or DFS)
+
+🧠 Why
+
+We need valid ordering in DAG.
+
+If nodes processed < total → cycle exists.
+
+⚠️ Pitfall
+
+If problem only asks “is it possible?” → cycle detection alone is enough.
+
+### 6️⃣ Cycle Detection
+Undirected Graph
+
+    DFS with parent
+    OR DSU
+
+Directed Graph
+    
+    DFS + recursion stack
+    OR Topological sort (cycle if incomplete)
+
+### 7️⃣ Grid Problems (Matrix as Graph)
+🔎 Signal Words
+    
+    “Islands”
+    “Grid”
+    “2D board”
+    “Spread / infection”
+
+✅ Use
+
+Count regions → DFS
+
+Shortest path → BFS
+
+Multi-source spread → Multi-source BFS
+
+### 8️⃣ Bipartite / 2-Coloring
+🔎 Signal Words
+    
+    “Bipartite”
+    “Divide into two groups”
+    “No two adjacent same group”
+
+✅ Use
+
+BFS / DFS + 2-coloring
+
+### 9️⃣ Bridges / Critical Connections
+🔎 Signal Words
+    
+    “Critical connections”
+    “If removed graph disconnects”
+    “Bridges”
+
+✅ Use
+
+DFS + Low-link (Tarjan)
+
+⚠️ Pitfall
+
+Not DSU.
+
+### 🔟 DAG Dynamic Programming
+🔎 Signal Words
+    
+    “Longest path in DAG”
+    “Number of ways in DAG”
+
+✅ Use
+
+Topological sort + DP
+
+<a id="graph-stress-test-your-understanding"></a>
+## Graphs - Stress Test Your Understanding
+
+Quick reference — scenario → recommended approach (one-line rationale)
+
+- Network delay time → Dijkstra — weighted shortest path; final answer = max distance from single source.
+- Redundant connection → DSU (Union-Find) — dynamic union and cycle detection while adding edges.
+- Minimum cost to connect points → MST (Kruskal + DSU) — connect all nodes with minimum total cost.
+- Word ladder → BFS — unweighted, level-by-level minimum transformations.
+- Alien dictionary → Topological sort — derive ordering from directed character dependencies.
+- Evaluate division equations → DFS / backtracking — traverse graph and multiply edge weights to answer queries.
+- Number of islands → DFS/BFS — count connected components in a grid.
+- Critical connections → DFS low-link (bridges) ❗
+- Bipartite → BFS/DFS 2-color ✅
+- Minimum Buses to reach destination → BFS ❗
+- Longest path in DAG → Topo + DP (or DFS memo) ⚠️
+- Clone graph → DFS/BFS + map ✅
+- Accounts merge → DSU ✅ 
+- Check a graph can form a valid tree (no cycles) → DSU (or DFS) ✅
+
+Quick tips:
+- Weighted shortest path? Use Dijkstra.
+- Unweighted shortest path / fewest steps? Use BFS.
+- Dependency ordering? Topological sort (Kahn or DFS topo).
+- Connect all nodes with minimal total cost? Use MST (Kruskal + DSU).
+
+---
+
+
 
 <a id="interview-trick"></a>
 ## 🧩 Interview Trick Awareness
